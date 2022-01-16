@@ -1,0 +1,9 @@
+name: TSProtect
+version: '${project.version}'
+main: com.christmas.tsprotect.TSProtect
+api-version: 1.17
+authors: [ christmas, garry ]
+description: Plugin for TheServer.wtf to harmonize with WorldGuard
+commands:
+  editblacklist:
+    description: edits the blacklist of the plugin
