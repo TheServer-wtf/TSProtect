@@ -2,13 +2,11 @@ package com.christmas.tsprotect.events;
 
 import com.christmas.tsprotect.TSProtect;
 import org.bukkit.Material;
-import org.bukkit.command.CommandExecutor;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class BlockModifyEvent implements Listener{

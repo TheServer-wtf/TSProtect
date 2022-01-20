@@ -25,7 +25,7 @@ public final class TSProtect extends JavaPlugin {
         this.saveDefaultConfig();
         stringmaterials = config.getStringList("config.blacklist");
         for(String s : stringmaterials){
-            blacklists.add(Material.getMaterial(s));
+            blacklists.add(Material.getMaterial(s.toUpperCase()));
         }
 
         getServer().getPluginManager().registerEvents(new BlockModifyEvent(), this);
